@@ -1,0 +1,5 @@
+" Savings
+map <F5> :w<CR>
+map <F4> :q<CR>
+map <F6> :wq<CR>
+
