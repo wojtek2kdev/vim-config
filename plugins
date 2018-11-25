@@ -1,0 +1,13 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
+Plug 'sirver/UltiSnips'
+
+"colorschemes
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+Plug 'isRuslan/vim-es6'
+
+call plug#end()
+
