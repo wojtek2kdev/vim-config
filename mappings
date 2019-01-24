@@ -3,5 +3,15 @@ map <F5> :w<CR>
 map <F4> :q!<CR>
 map <F6> :wq<CR>
 
+"NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
+
+"visual edit
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+
+"YouCompleteMe remappings
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
