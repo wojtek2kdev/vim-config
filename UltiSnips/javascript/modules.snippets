@@ -1,0 +1,15 @@
+snippet im "import snippet"
+import ${1/(.+)/$1/} from '$1';
+endsnippet
+
+snippet imp "import {} snippet"
+import {$1} from '$2';
+endsnippet
+
+snippet rq "require snippet"
+const ${1/(\w+)/$1/} = require('$1');
+endsnippet
+
+snippet rqr "require {} snippet"
+const {$1} = require('$2');
+endsnippet
