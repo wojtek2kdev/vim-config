@@ -1,11 +1,31 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'scrooloose/nerdtree'
+"completion
 Plug 'mattn/emmet-vim'
 Plug 'sirver/UltiSnips'
+Plug 'valloric/youcompleteme'
+
+"editor
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+"navigation
+Plug 'scrooloose/nerdtree'
+
+"syntax
+Plug 'elixir-editors/vim-elixir'
 
 "colorschemes
 Plug 'dracula/vim', { 'as': 'dracula' }
+
+"lint
+Plug 'vim-syntastic/syntastic'
+
+"other
+Plug 'DemonCloud/J'
+Plug 'sonph/onehalf'
+Plug 'editorconfig/editorconfig-vim'
+
 
 Plug 'isRuslan/vim-es6'
 
