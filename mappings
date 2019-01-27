@@ -6,6 +6,10 @@ map <F6> :wq<CR>
 "NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
+nmap <C-Right> :tabnext<CR>
+nmap <C-Left> :tabprevious<CR>
+
+inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
 
 "visual edit
 vmap <Tab> >gv
